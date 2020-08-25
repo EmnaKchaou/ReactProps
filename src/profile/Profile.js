@@ -3,10 +3,12 @@ import propTypes from 'prop-types';
 
 
 
-const Profile = (props)=> {
+const Profile = ({profile})=> {
     return (
         <div>
-            <p> children.props</p>
+            <p>{profile.fullName}</p>
+         <p>{profile.bio}</p>
+         <p>{profile.profession}</p>
         </div>
     )
 }
