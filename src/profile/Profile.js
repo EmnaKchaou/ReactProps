@@ -3,10 +3,10 @@ import propTypes from 'prop-types';
 
 
 
-const Profile = (props)=> {
+const Profile = ({props})=> {
     return (
         <div>
-            <p> children.props</p>
+            <p>{children.props}</p>
         </div>
     )
 }
